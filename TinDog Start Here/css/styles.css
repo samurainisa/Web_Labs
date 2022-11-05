@@ -1,0 +1,59 @@
+.custom-navbar {
+    padding-bottom: 4.5rem;
+}
+
+.section {
+    background-color: #ff3c68;
+}
+
+.custom_font {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-size: 3rem;
+    font-weight: 1.5rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    color: #ffffff;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.custom-nav-item {
+    padding: 0 18px;
+}
+
+.custom-nav-link {
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.phone-custom-div {
+    width: 60%;
+    rotate: 25deg;
+}
+
+.download-button {
+    margin: 5px 3px 0px 5px;
+}
+
+
+/* медиа запрос, чтобы картинка менялась при сжатии экрана, а не была статичной 60% */
+
+@media (max-width: 768px) {
+    .phone-custom-div {
+        width: 100%;
+        rotate: 0deg;
+    }
+}
