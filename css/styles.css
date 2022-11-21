@@ -1,0 +1,237 @@
+.custom-navbar {
+    padding-bottom: 5vw;
+}
+
+.section {
+    background-color: #ff3c68;
+}
+
+.custom_font {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 3.5vw;
+    font-weight: 1.5vw;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    font-size: 1vw;
+}
+
+#title {
+    color: #ffffff;
+}
+
+#phone-id {
+    margin-top: 3vw;
+}
+
+#cta h3 {
+    font-size: 1.5vw;
+}
+
+.navbar-brand {
+    font-size: 5vw;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.custom-nav-item {
+    padding: 0 18px;
+}
+
+.custom-nav-link {
+    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+em {
+    font-size: 2vw;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.header-container {
+    margin: 0 2vw 0 3vw;
+}
+
+.phone-container {
+    margin: 0 2vw 0 3vw;
+}
+
+.custom-text__middle {
+    font-size: 2.5vw;
+}
+
+.custom-text__h3 {
+    font-size: 3.2vw;
+}
+
+.custom-container {
+    padding: 0;
+    background: #ff3c68;
+}
+
+.phone-custom-div {
+    width: 25vw;
+    rotate: 25deg;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.download-button {
+    margin: 1vw 3px 0px 1vw;
+    font-size: 2vw;
+}
+
+.light-button {
+    font-size: 2vw;
+}
+
+.dark-button {
+    font-size: 2vw;
+}
+
+#footer {
+    font-size: 2vw;
+    color: #000;
+    padding: 4vw;
+    text-align: center;
+}
+
+#footer i {
+    margin: 16px;
+}
+
+
+/* медиа запрос, чтобы картинка менялась при сжатии экрана, а не была статичной 60% */
+
+
+/* @media (max-width: 768px) {
+    .phone-custom-div {
+        width: 100%;
+    }
+} */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    text-align: center;
+}
+
+.card-body h3 {
+    font-size: 2vw;
+}
+
+.card-body {
+    font-size: 1.7vw;
+}
+
+.card-body button {
+    width: 20vw;
+    border: 1px solid black;
+}
+
+#prices {
+    margin: 4vw 20px;
+}
+
+#pricing {
+    padding: 30px 0;
+}
+
+.dark-button {
+    color: #fff;
+    background-color: #292b2a;
+}
+
+.footer-container {
+    text-align: center;
+    background: #ff3c68;
+    padding: 6vw;
+    color: #fff;
+}
+
+.light-button {
+    color: #292b2a;
+    background-color: #fff;
+}
+
+.card-button__dark {
+    background: #000;
+    color: #fff;
+}
+
+
+/* .card {
+    width: 25vw;
+} */
+
+.title-center {
+    text-align: center;
+}
+
+.title-center h2 {
+    font-size: 3vw;
+}
+
+.title-center p {
+    font-size: 4vw;
+}
+
+.features .col i {
+    font-size: 5vw;
+    color: #ef8172;
+}
+
+.card-deck {
+    text-align: center;
+}
+
+.col p {
+    color: gray;
+}
+
+#press {
+    text-align: center;
+    padding-bottom: 3%;
+    background: #ef8172;
+}
+
+#features {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#testimonials {
+    padding: 35px 0 0 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vw;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+    /* padding: 7% 15%; не понимаю зачем нужен паддинг*/
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}

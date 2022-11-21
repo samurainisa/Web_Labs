@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>TinDog</title>
+
+    <!-- бутстрап -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <!-- убунту -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- монтсеррат -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <link href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" rel="stylesheet" />
+
+    <!-- наши стили -->
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <body>
+        <div class="container-fluid custom-container">
+            <div class="header-container">
+                <section id="title">
+                    <!-- нельзя просто так изменить css в бутстрапе, нужно создать свой класс и с помощью него переопределить стили -->
+                    <!-- В моем случае мой класс это custom-navbar -->
+                    <!-- важно, чтобы это работало нужно чтобы наш css был подключен после бутстрапа по ссылкам-->
+
+
+                    <nav class="custom-navbar navbar navbar-expand-lg section ">
+                        <a class="navbar-brand" href="">Tindog</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+
+                                <li class="nav-item custom-nav-item">
+                                    <a class="nav-link custom-nav-link" href="">Contact</a>
+                                </li>
+                                <li class="nav-item custom-nav-item">
+                                    <a class="nav-link custom-nav-link" href="">Pricing</a>
+                                </li>
+                                <li class="nav-item custom-nav-item">
+                                    <a class="nav-link custom-nav-link" href="">Download</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="phone-container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="custom_font">Meet new and interesting dogs nearby.</h1>
+                        <button type="button" class="btn btn-dark download-button"><i class="fa-brands fa-apple"></i> Download</button>
+                        <button type="button" class="btn btn-outline-primary download-button"><i class="fa-brands fa-google-play"></i>Download</button>
+                    </div>
+                    <div class="col">
+                        <div class="wrapper">
+                            <img class="phone-custom-div" id="phone-id" src="/images/iphone6.png" alt="iphone-mockup">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <section id="features">
+            <div class="features">
+                <div class="row">
+                    <div class="col">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <h3 class="custom-text__h3">Easy to use.</h3>
+                        <p class="custom-text__middle">So easy to use, even your dog could do it.</p>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-bullseye"></i>
+                        <h3 class="custom-text__h3">Elite Clientele</h3>
+                        <p class="custom-text__middle">We have all the dogs, the greatest dogs.</p>
+                    </div>
+                    <div class="col">
+                        <i class="fa-solid fa-heart"></i>
+                        <h3 class="custom-text__h3">Guaranteed to work.</h3>
+                        <p class="custom-text__middle">Find the love of your dog's life or your money back.</p>
+                    </div>
+                </div>
+        </section>
+
+
+        <!-- Testimonials -->
+
+        <section id="testimonials">
+
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+                        <img class="testimonial-image" src="/images/dog-img.jpg" alt="dog-profile">
+                        <em>Pebbles, New York</em>
+                    </div>
+                    <div class="carousel-item">
+                        <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+                        <img class="testimonial-image" src="/images/lady-img.jpg" alt="lady-profile">
+                        <em>Beverly, Illinois</em>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </section>
+
+
+        <!-- Press -->
+        <section id="press">
+            <img class="press-logo" src="/images/techcrunch.png" alt="tc-logo">
+            <img class="press-logo" src="/images/tnw.png" alt="tnw-logo">
+            <img class="press-logo" src="/images/bizinsider.png" alt="biz-insider-logo">
+            <img class="press-logo" src="/images/mashable.png" alt="mashable-logo">
+        </section>
+
+
+        <!-- Pricing -->
+
+        <section id="pricing">
+            <div class="title-center">
+                <h2>A Plan for Every Dog's Needs</h2>
+                <p>Simple and affordable price plans for your and your dog.</p>
+            </div>
+            <div class="card-deck">
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Chihuahua</h3>
+                                <h2>Free</h2>
+                                <p>5 Matches Per Day</p>
+                                <p>10 Messages Per Day</p>
+                                <p>Unlimited App Usage</p>
+                                <button class="light-button" type="button">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Labrador</h3>
+                                <h2>$49 / mo</h2>
+                                <p>Unlimited Matches</p>
+                                <p>Unlimited Messages</p>
+                                <p>Unlimited App Usage</p>
+                                <button class="dark-button" type="button">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h3>Mastiff</h3>
+                                <h2>$99 / mo</h2>
+                                <p>Pirority Listing</p>
+                                <p>Unlimited Matches</p>
+                                <p>Unlimited Messages</p>
+                                <p>Unlimited App Usage</p>
+                                <button class="dark-button" type="button">Sign Up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Call to Action -->
+        <div class="footer-container">
+            <section id="cta">
+                <h3>Find the True Love of Your Dog's Life Today.</h3>
+                <button type="button" class="btn btn-dark download-button"><i class="fa-brands fa-apple"></i> Download</button>
+                <button type="button" class="btn btn-outline-primary download-button"><i class="fa-brands fa-google-play"></i>Download</button>
+            </section>
+
+            <!-- Footer -->
+        </div>
+
+        <footer id="footer">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-sharp fa-solid fa-envelope"></i>
+            <p>© Copyright 2018 TinDog</p>
+        </footer>
+        </div>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
